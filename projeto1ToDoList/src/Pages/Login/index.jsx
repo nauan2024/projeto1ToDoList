@@ -1,7 +1,7 @@
 import React from "react";
 export default function Login() {
   return (
-    // Fundo azul que ocupa a tela toda (h-screen) e centraliza o conteúdo
+    
     <section className="min-h-screen flex items-center justify-center bg-blue-500">
       
       {/* Caixa branca com cantos arredondados e sombra */}
