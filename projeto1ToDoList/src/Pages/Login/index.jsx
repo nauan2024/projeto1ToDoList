@@ -1,3 +1,4 @@
+import React from "react";
 export default function Login() {
   return (
     // Fundo azul que ocupa a tela toda (h-screen) e centraliza o conteúdo
