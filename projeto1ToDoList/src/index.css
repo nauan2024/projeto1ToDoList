@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primaria: #2563eb;   /* Azul principal para botões e elementos de destaque */
+  --color-secundaria: #10b981; /* Verde para ações de sucesso ou confirmação */
+  --color-terciaria: #f59e0b;  /* Laranja para avisos, ícones ou detalhes */
+  --color-fundo: #f8fafc;      /* Cinza muito claro para o fundo do sistema */
+  --color-texto: #1e293b;      /* Cinza escuro para os textos (melhor que preto puro) */
+}
