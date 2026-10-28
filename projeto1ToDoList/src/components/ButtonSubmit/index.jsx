@@ -5,7 +5,7 @@ export default function ButtonSubmit({TextButton}) {
     }
 
     return (
-        <button type="submit" onClick={NavigateButton}>
+        <button type="submit" onClick={NavigateButton} className="bg-black text-white">
             {TextButton}
         </button>
     )

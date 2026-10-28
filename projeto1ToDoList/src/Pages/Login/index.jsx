@@ -1,5 +1,6 @@
 import React from "react";
 import InputText from "../../components/InputText/index.jsx";
+import ButtonSubmit from "../../components/ButtonSubmit/index.jsx";
 export default function Login() {
   return (
     
@@ -19,9 +20,7 @@ export default function Login() {
         <InputText placeholder="Digite sua senha"/>
        
 
-        <a href="/dashboard">
-          Login
-        </a>
+        <ButtonSubmit TextButton="Login" />
 
     </section>
   );
