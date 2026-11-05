@@ -20,7 +20,6 @@ export default function Login() {
         <InputText placeholder="Digite seu e-mail" className="border-2 border-black p-2 rounded-[10px]" />
         <InputText placeholder="Digite sua senha" className="border-2 border-black p-2 rounded-[10px]" />
        
-
         <ButtonSubmit TextButton="Login" />
       </div>
     </section>
