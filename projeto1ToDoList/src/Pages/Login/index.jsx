@@ -3,7 +3,6 @@ import InputText from "../../components/InputText/index.jsx";
 import ButtonSubmit from "../../components/ButtonSubmit/index.jsx";
 export default function Login() {
   return (
-    
     <section className="align-center justify-center flex p-60">
       
      <div className="flex flex-col text-center align-center justify-center w-50 border-2 border-black p-2 rounded-[10px] gap-4" >
