@@ -4,13 +4,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import Login from "../src/Pages/Login/index.jsx"
 import "./index.css"
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <section id="center">
-      <Login/>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Login/>}></Route>
+            
+          </Routes>
+
+        </BrowserRouter>
+
+      
       </section>
 
       <div className="ticks"></div>
