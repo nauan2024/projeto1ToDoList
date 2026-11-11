@@ -14,7 +14,7 @@ function App() {
       <section id="center">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Dashboard/>}></Route>
+            <Route path="/" element={<Login/>}></Route>
             <Route path="/Dashboard" element={<Dashboard/>}></Route>
           </Routes>
 

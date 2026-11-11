@@ -1,13 +1,19 @@
-export default function ButtonSubmit({TextButton}) {
-    function NavigateButton({anchor}) {
-      // Função para navegar para a página de dashboard 
-      //usarei react-router-dom para navegar para a página de dashboard
+import { useNavigate } from 'react-router-dom';
+
+export default function ButtonSubmit({ TextButton, anchor }) {
+    const navigate = useNavigate(); 
+
+    function handleNavigate() {
+        navigate(anchor); 
     }
 
     return (
-        <button type="submit" onClick={NavigateButton} className="bg-black text-white p-2 rounded-[10px] hover:bg-gray-800">
+        <button 
+            type="button" 
+            onClick={handleNavigate}
+            className="w-full bg-primaria hover:bg-black-700 text-white font-semibold py-3 px-4 rounded-lg"
+        >
             {TextButton}
         </button>
     )
 }
-

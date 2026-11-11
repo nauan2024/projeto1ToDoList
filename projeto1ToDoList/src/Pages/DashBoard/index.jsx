@@ -15,9 +15,9 @@ export default function Dashboard() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            <Card_Dashboard title="Saldo Total" value="R$ 10.000,00" borderColor="border-green-500" />
-            <Card_Dashboard title="Receitas" value="R$ 15.000,00" borderColor="border-blue-500" />
-            <Card_Dashboard title="Despesas" value="R$ 5.000,00" borderColor="border-red-500" />
+            <Card_Dashboard title="Saldo Total" value="Tarefa 1" borderColor="border-green-500" />
+            <Card_Dashboard title="Receitas" value="tarefa 2" borderColor="border-blue-500" />
+            <Card_Dashboard title="Despesas" value="tarefa 3" borderColor="border-red-500" />
 
           </div>
         </div>
