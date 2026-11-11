@@ -1,5 +1,5 @@
 import React from "react";
-
+import Card_Dashboard from "../../components/Card_Dashboard/index.jsx";
 export default function Dashboard() {
   return (
     <section className="min-h-screen flex flex-col bg-fundo">
@@ -15,10 +15,9 @@ export default function Dashboard() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            <article className="bg-white p-6 rounded-xl shadow-md border-l-4 border-secundaria">
-              <h3 className="text-gray-500 text-sm font-medium">Saldo Atual</h3>
-              <p className="text-3xl font-bold text-texto mt-2">R$ 0,00</p>
-            </article>
+            <Card_Dashboard title="Saldo Total" value="R$ 10.000,00" borderColor="border-green-500" />
+            <Card_Dashboard title="Receitas" value="R$ 15.000,00" borderColor="border-blue-500" />
+            <Card_Dashboard title="Despesas" value="R$ 5.000,00" borderColor="border-red-500" />
 
           </div>
         </div>
